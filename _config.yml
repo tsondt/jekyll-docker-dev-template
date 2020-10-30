@@ -1,0 +1,24 @@
+title: Title
+description: Description
+url: https://REPLACE_REPO_NAME.tsondt.com
+author:
+  name: tsondt
+  url: https://tsondt.com
+
+sass:
+  sass_dir: public/css
+  style: compressed
+
+exclude:
+  - "*.sh"
+  - "Makefile"
+  - "Dockerfile"
+  - "Gemfile*"
+  - "LICENSE"
+  - "README.md"
+  - "CNAME"
+
+plugins:
+  - jekyll-sitemap
+
+ga_id: 
